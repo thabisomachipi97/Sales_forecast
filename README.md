@@ -1,12 +1,16 @@
-# sales_forecasting
+# Sales_forecast
 Sales forecasting using multiple models - Seasonal Naïve, Holt-Winters, ARIMA, SARIMA and Linear Regression Model
 
 ## Project Objective
-Goal: The goal of this project was to apply various quantitative methods, (i.e. Times Series Models and Causal Models) to forecast the sales of the products available in the dataset.
+### Goal of the Project
 
-- Perform time series analysis to understand the data and trends
-- Use multiple forecasting models on train dataset
-- Finally select the best model to run the test data
+This project aimed to leverage various quantitative methods, including Time Series Models and Causal Models, to forecast product sales within the dataset.
+
+Key steps undertaken:
+
+    1. Conducted time series analysis to explore the data and identify trends.
+    2. Applied multiple forecasting models to the training dataset.
+    3. Selected the most accurate model to generate forecasts on the test dataset.
 
 Models covered in the notebook include:
 1. Seasonal Naive Model
@@ -15,4 +19,4 @@ Models covered in the notebook include:
 4. Linear Regression Model
 
 ## Conclusion
-We considered different time-series models as well as a regression model for time series forecasting. From our results we saw that the linear regression model outperformed the other time-series models. Therefore, for this dataset we could use a regression model, rather than a time-series model to forecast sales. One of the main assumptions of regression models is that the patterns in the historical data will be repeated in the future, and since our data was highly seasonal and had a linear trend, it made sense why the linear regression model out-performed the other models.
+We explored various time-series models along with a regression model for forecasting. Our results showed that the linear regression model performed better than the other time-series models. Consequently, this dataset is better suited for forecasting sales using a regression model rather than traditional time-series approaches. A key assumption of regression models is that historical patterns will persist into the future. Given that our data exhibited strong seasonality and a linear trend, it is understandable why the linear regression model outperformed the others.
